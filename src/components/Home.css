@@ -1,0 +1,193 @@
+/* Home.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  position: relative;
+}
+
+.background-image img {
+  width: 100%;
+  height: auto;
+  max-height: 500px; /* Set the maximum height of the background image */
+}
+
+.header-content {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  color: white;
+  text-align: right;
+}
+
+.header-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.search-container {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  
+}
+.background-image.active .search-container {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.search-container input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+  
+}
+
+.search-container button {
+  padding: 10px 20px;
+}
+
+.course-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three cards on one line */
+  gap: 20px;
+  font-size: xx-small;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+.course-cards-container p {
+  font-size: small;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.course-card {
+  /* ... (other styles) */
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribute space evenly between the content */
+  align-items: center; /* Center content horizontally */
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.course-card:hover {
+  transform: translateY(-10px); /* Move the course card up by 10px on hover */
+}
+
+
+
+.course-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.course-card-content {
+  min-height: 150px; /* Set a minimum height for the course card content */
+}
+.see-more-container {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+}
+
+.see-more-link {
+  background: linear-gradient(to right, #4b6584 50%,#778ca3 50%);
+  background-size: 200% 100%; /* Adjust the size of the gradient */
+    transition: background-position 0.5s; /* Replace with your logo color */
+  text-decoration: none;
+  font-weight: bold;
+  width: 120px; /* Set the width you desire */
+  height: 40px; /* Set the height you desire */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Add border to button */
+  color: white;
+}
+
+
+
+.see-more-link:hover {
+  background-position: -100% 0; /* Add underline on hover */
+  color: white; 
+}
+
+
+.benefits {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h3 {
+  color: #333;
+  font-size: large;
+  margin-bottom: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+p {
+  font-size: xx-small;
+}
+/* ... (rest of the CSS) */
+
+/* ... (rest of the CSS) */
+
+/* ... (rest of the CSS) */
+
+.benefits {
+  display: flex;
+  align-items: center; /* Center vertically */
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.benefits-image-container {
+  flex: 1; /* Take up available space */
+  max-width: 50%; /* Limit image width to 50% of its container */
+  max-height: 100%; /* Set maximum height to 100% of its container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.3;
+}
+
+.benefits-image {
+  max-height: 100%; /* Set maximum height to 100% of its container */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  opacity: 0.5;
+}
+
+.benefits-content {
+  flex: 1; /* Take up available space */
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: small; /* Set the font size for the content */
+  font-weight: bold;
+}
+
+.benefits h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: small; /* Set the font size for the headings */
+}
+
+.benefits p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: small; /* Set the font size for the paragraphs */
+}
+
+  
+
+
+

@@ -1,0 +1,53 @@
+/* CourseCard.css */
+
+.course-card {
+  max-width: 350px; /* Set a maximum width for the card */
+  width: 100%; /* Let the card shrink if the available width is less than 350px */
+  height: 400px; /* Increase the height */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.course-image {
+  width: 100%;
+  height: 180px; /* Increase the height of the circular image */
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.course-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.course-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-size: xx-small;
+  text-align: center;
+  overflow: hidden; /* Prevent content from overflowing outside the card */
+}
+
+.course-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.course-content p {
+  margin: 0;
+}

@@ -1,0 +1,74 @@
+/* Custom Navbar styles */
+.navbar {
+  background-color: #fff; /* Background color of the navbar */
+  border-bottom: 1px solid #ccc; /* Border at the bottom of the navbar */
+}
+.navbar-brand{
+  color: white;
+}
+.navbar-nav .nav-item .nav-link.active {
+  color: grey !important;
+}
+
+/* Navbar.css */
+/* ... (other styles) */
+
+.circle-logo {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10%;
+  background: linear-gradient(to right, #4b6584, #778ca3);
+  background-size: 200% 100%;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-position 0.5s;
+  text-decoration: none;
+  color: white !important; 
+}
+
+
+.circle-logo span {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.circle-logo:hover {
+  background-position: -100% 0;
+}
+
+
+
+
+.dropdown-menu {
+  min-width: 10rem;
+  color: gray;
+}
+
+.dropdown-item {
+  font-size: 1rem;
+  color: grey;
+}
+
+.btn-outline-primary {
+  color: grey;
+  border-color: grey;
+}
+
+.btn-outline-primary:hover {
+  background-color:grey;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color:grey;
+  border-color: grey;
+  margin-top: -26px;
+}
+
+.btn-primary:hover {
+  background-color:grey;
+}
+.selected-course {
+  color: grey; /* Set the desired grey color */
+} 

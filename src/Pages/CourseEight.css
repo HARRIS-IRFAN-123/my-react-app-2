@@ -1,0 +1,129 @@
+h1{
+    font-size:xx-large;
+    font-weight: bold;
+    text-align: left;
+    font-family: Inter,Helvetica Neue,Arial,sans-serif;
+  }
+  span{
+    margin-right: 450px;
+  }
+  .container-fluid {
+    text-align: left;
+  }
+  
+  .mobile {
+    width: auto; /* You can adjust the width to your desired size */
+    height: auto;
+    float: right;
+    margin-top: -23px;
+  }
+  p{
+    text-align: left;
+    font-size: x-large;
+  }
+  .first-url{
+    text-align: left;
+    list-style: none;
+    margin: 10px;
+    padding: 20px;
+    background-color:lightgrey;
+    font-weight: bold;
+  }
+  .second-url{
+    text-align: center;
+    list-style: none;
+    margin: 10px;
+    padding: 20px;
+    margin-top: -87px;
+    font-weight: bold;
+  }
+  .third-url{
+    text-align: right;
+    list-style: none;
+    margin: 10px;
+    padding: 20px;
+    margin-top: -108px;
+    font-weight: bold;
+  }
+  h2{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+  }
+  .learn-list {
+   list-style:none; 
+   padding-left :0;
+   margin-right: -20px;
+   
+  }
+  
+  .learn-list li:before {
+   content:'•'; 
+   margin-right :10px
+  }  
+  .first-paragraph{
+   border :1px solid grey; 
+   width :180px; 
+   height :120px; 
+   text-align:center
+  }
+  .enroll-box {
+   position:relative; 
+  }
+  
+  .button {
+   position:absolute; 
+   top:-10px; 
+   right:-10px; 
+   margin-right :177px; 
+   margin-top :-57px; 
+   width :100px; 
+   background-color:red; 
+   color:white
+  }
+  .nav-list {
+   list-style:none; 
+   margin :0; 
+   padding :0; 
+   display:flex; 
+   background-color :lightgray
+  }
+  
+  .nav-list li {
+   margin :0 10px; 
+   text-align:right
+  }
+  
+  .nav-list a {
+   text-decoration:none
+  }
+  .card-container {
+    display: flex;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card {
+    flex-grow: 1;
+    width: 250px;
+    height: 300px;
+  }
+  
+  .card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  
