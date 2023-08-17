@@ -10,7 +10,7 @@ import chart from '../Images/chart.png'
 import './CourseOne.css';
 
 const CourseOne = () => {
-  const [activeSection, setActiveSection] = useState('about');
+  const [activeSection, setActiveSection] = useState(null);
   const [courseTopic, setCourseTopic] = useState('Search');
 
   const handleNavLinkClick = (sectionId) => {

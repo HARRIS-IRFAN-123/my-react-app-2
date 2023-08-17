@@ -11,7 +11,7 @@ import "./CourseNine.css";
 
 const CourseNine = () => {
   
-  const [activeSection, setActiveSection] = useState('about');
+  const [activeSection, setActiveSection] = useState(null);
   const [courseTopic, setCourseTopic] = useState('Mobile Development');
 
   const handleNavLinkClick = (sectionId) => {
@@ -86,7 +86,7 @@ const CourseNine = () => {
             <p>This course will teach you the fundamentals of data analysis. You will learn how to collect, clean, analyze, and interpret data using a variety of tools and techniques. You will also learn about the different types of data analysis and how to choose the right approach for your needs.</p>
           </div>
         
-          <div className='course-section'style={{ display: activeSection === 'about' ? 'block' : 'none' }}>
+          <div className='course-section'style={{ display: activeSection === 'learn' ? 'block' : 'none' }}>
             <h2>What will you learn</h2>
             <ul className='learn-list'style={{ display: activeSection === 'about' ? 'block' : 'none' }}>
               <li>Collect and clean data using a variety of tools and techniques</li>
@@ -95,14 +95,14 @@ const CourseNine = () => {
               <li>Communicate your findings to stakeholders</li>
             </ul>
           </div>
-          <div className='course-section'style={{ display: activeSection === 'about' ? 'block' : 'none' }}>
+          <div className='course-section'style={{ display: activeSection === 'instructors' ? 'block' : 'none' }}>
             <h2>Instructors</h2>
             <div className='instructors-images'>
               <img src={client_1} alt='Instructor 1' />
               <img src={client_2} alt='Instructor 2' />
             </div>
           </div>
-          <div className='course-section'style={{ display: activeSection === 'about' ? 'block' : 'none' }}>
+          <div className='course-section'style={{ display: activeSection === 'enroll' ? 'block' : 'none' }}>
             <h2>Ways to Enroll</h2>
             <p>Choose from the following enrollment options:</p>
             <ul className='learn-list'>
